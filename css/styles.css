@@ -72,6 +72,15 @@ body {
     width: 200px;
 }
 
+.img-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.img-contact img {
+    width: 200px;
+}
+
 .content-hobbies {
     display: grid;
     justify-content: center;
