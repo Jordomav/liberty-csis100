@@ -62,3 +62,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.img-resume {
+    display: flex;
+    justify-content: center;
+}
+
+.img-resume img {
+    width: 200px;
+}
