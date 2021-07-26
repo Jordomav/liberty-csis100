@@ -71,3 +71,56 @@ body {
 .img-resume img {
     width: 200px;
 }
+
+.content-hobbies {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas:
+    "gaming-img gaming-text"
+    "robots-text robots-img"
+    "comics-img comics-text"
+    "anime-text anime-img";
+}
+
+.content-hobbies img {
+    width: 400px;
+}
+
+.content-hobbies p {
+    width: 400px;
+    text-align: center;
+    padding: 30px;
+}
+
+.gaming-img {
+    grid-area: gaming-img;
+}
+
+.gaming-text {
+    grid-area: gaming-text;
+}
+
+.robots-text {
+    grid-area: robots-text;
+}
+
+.robots-img {
+    grid-area: robots-img;
+}
+
+.comics-img {
+    grid-area: comics-img;
+}
+
+.comics-text {
+    grid-area: comics-text;
+}
+
+.anime-text {
+    grid-area: anime-text;
+}
+
+.anime-img {
+    grid-area: anime-img;
+}
